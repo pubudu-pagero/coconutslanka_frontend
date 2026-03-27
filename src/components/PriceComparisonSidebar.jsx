@@ -92,8 +92,8 @@ function SizeComparisonCard({ size, data }) {
       </div>
 
       {savings && (
-        <div className="flex items-start gap-1.5 mt-2.5 px-2.5 py-2 rounded-md bg-amber-50 border border-amber-200 text-xs text-amber-900 leading-relaxed">
-          <span className="text-amber-500 text-[0.6rem] mt-0.5 shrink-0">
+        <div className="flex items-start gap-1.5 mt-2.5 px-2.5 py-2 rounded-md bg-[#fef0e6] border border-[#f5c4a0] text-xs text-[#7a3010] leading-relaxed">
+          <span className="text-[#e07239] text-[0.6rem] mt-0.5 shrink-0">
             &#9660;
           </span>
           <span>

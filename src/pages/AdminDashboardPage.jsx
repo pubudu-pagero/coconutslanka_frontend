@@ -12,7 +12,7 @@ const SIZE_LABELS = { small: 'Small', medium: 'Medium', large: 'Large' };
 const EMPTY_FORM = { supermarket: '', coconut_size: 'small', price: '' };
 
 const inputClass =
-  'py-[0.55rem] px-3 border-[1.5px] border-[#dde3e0] rounded-md bg-white text-[#1a1a1a] transition-[border-color,box-shadow] focus:outline-none focus:border-[#2d8048] focus:shadow-[0_0_0_2px_rgba(45,128,72,0.12)]';
+  'py-[0.55rem] px-3 border-[1.5px] border-[#cfe8da] rounded-md bg-white text-[#1a1a1a] transition-[border-color,box-shadow] focus:outline-none focus:border-[#2d6a48] focus:shadow-[0_0_0_2px_rgba(45,106,72,0.12)]';
 const labelClass = 'text-[0.85rem] font-semibold text-[#444]';
 const formGroupClass = 'flex flex-col gap-[0.35rem] flex-1 min-w-[180px]';
 const btnPrimary =
@@ -108,10 +108,10 @@ export default function AdminDashboardPage() {
   const isPending = createOrUpdateMutation.isPending || updateMutation.isPending;
 
   const tdClass = (isEditing) =>
-    `py-[0.65rem] px-[0.85rem] border-b border-[#dde3e0] ${isEditing ? 'bg-[#eaf4fb]' : 'group-hover:bg-[#fafcfb]'}`;
+    `py-[0.65rem] px-[0.85rem] border-b border-[#cfe8da] ${isEditing ? 'bg-[#eaf4fb]' : 'group-hover:bg-[#f0fbf5]'}`;
 
   return (
-    <div className="min-h-screen bg-[#f4f7f5] flex flex-col">
+    <div className="min-h-screen bg-[#eef7f2] flex flex-col">
       <div className="bg-brand-900 text-white py-4 px-6 flex items-center justify-between flex-wrap gap-3">
         <h1 className="text-xl font-bold">Admin Dashboard</h1>
         <div className="flex items-center gap-4">

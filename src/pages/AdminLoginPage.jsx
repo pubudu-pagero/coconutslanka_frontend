@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useLogin } from '../api/client';
 
 const inputClass =
-  'py-[0.55rem] px-3 border-[1.5px] border-[#dde3e0] rounded-md bg-white text-[#1a1a1a] transition-[border-color,box-shadow] focus:outline-none focus:border-[#2d8048] focus:shadow-[0_0_0_2px_rgba(45,128,72,0.12)]';
+  'py-[0.55rem] px-3 border-[1.5px] border-[#cfe8da] rounded-md bg-white text-[#1a1a1a] transition-[border-color,box-shadow] focus:outline-none focus:border-[#2d6a48] focus:shadow-[0_0_0_2px_rgba(45,106,72,0.12)]';
 
 const labelClass = 'text-[0.85rem] font-semibold text-[#444]';
 

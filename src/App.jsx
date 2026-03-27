@@ -13,10 +13,10 @@ function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-[100] bg-brand-900 text-white px-6 shadow-[0_2px_8px_rgba(0,0,0,0.2)]">
       <div className="max-w-[1200px] mx-auto flex items-center justify-between h-[60px] gap-4">
-        <Link to="/" className="flex items-center gap-2 text-white">
+        <Link to="/" className="flex items-center gap-2 text-white ml-20 sm:ml-0">
           <span className="text-[1.6rem]">&#127825;</span>
           <span className="text-xl font-bold whitespace-nowrap max-[500px]:text-base">Coconut Lanka</span>
-          <span className="text-[0.72rem] text-[#a8d5b8] hidden [@media(min-width:600px)]:inline">Direct Farmer to Buyer</span>
+          <span className="text-[0.72rem] text-[#8ecba8] hidden [@media(min-width:600px)]:inline">Direct Farmer to Buyer</span>
         </Link>
         <nav className="hidden sm:flex gap-3">
           <Link
@@ -27,7 +27,7 @@ function Header() {
           </Link>
           <Link
             to="/post?type=buy"
-            className="py-[0.45rem] px-4 rounded-full text-sm font-semibold whitespace-nowrap transition-colors bg-[#e67e22] text-white hover:bg-[#f39c12]"
+            className="py-[0.45rem] px-4 rounded-full text-sm font-semibold whitespace-nowrap transition-colors bg-[#e07239] text-white hover:bg-[#c85e25]"
           >
             Buy Coconuts
           </Link>
@@ -39,7 +39,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer className="hidden sm:block fixed bottom-0 left-0 w-full z-[100] bg-brand-900 text-[#a8d5b8] text-center py-3 px-4 text-[0.82rem]">
+    <footer className="hidden sm:block fixed bottom-0 left-0 w-full z-[100] bg-brand-900 text-[#8ecba8] text-center py-3 px-4 text-[0.82rem]">
       <p>Connecting coconut farmers and buyers across Sri Lanka &mdash; no middlemen.</p>
       <p className="mt-[0.3rem]">
         <Link to="/admin/login" className="text-white/40 text-[0.75rem] hover:text-white/70">Admin</Link>

@@ -11,7 +11,7 @@ export default function ListingCard({ listing }) {
   return (
     <div
       className={`bg-white rounded-xl shadow-sm border-l-4 p-2.5 mx-[10px] hover:shadow-md transition-shadow ${
-        isSell ? 'border-l-brand-700' : 'border-l-amber-500'
+        isSell ? 'border-l-brand-700' : 'border-l-[#e07239]'
       }`}
     >
       {/* Row 1: type + size + name + price */}
@@ -19,8 +19,8 @@ export default function ListingCard({ listing }) {
         <span
           className={`shrink-0 text-[0.65rem] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-full ${
             isSell
-              ? 'bg-green-100 text-green-800'
-              : 'bg-amber-100 text-amber-800'
+              ? 'bg-brand-50 text-brand-900'
+              : 'bg-[#fef0e6] text-[#c85e25]'
           }`}
         >
           {isSell ? 'Sell' : 'Buy'}
